@@ -21,7 +21,7 @@ def example_add(num_1: int | float, num_2: int | float) -> int | float:
     """
     return num_1 + num_2
 
-# TODO - Implement function and tests
+
 def example_bad_add(num_1: int | float, num_2: int | float) -> int | float:
     """
     Badly adds two numbers together.
@@ -38,4 +38,4 @@ def example_bad_add(num_1: int | float, num_2: int | float) -> int | float:
     int | float
         Sum of num_1 and num_2... and + 1
     """
-    return num_1 + num_2 + 1
+    return num_1 + num_2
